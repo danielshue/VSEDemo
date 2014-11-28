@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="4666e62d-46bb-4b48-a87b-6c0365a28ac9" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="cdfdabdf-6942-4595-b13a-f1915f277b4b" name="Haiku.Core">
+      <references>
+        <reference Id="f73ff85a-8652-4dec-af87-afc7612b8259" name="BaseRules.cs">
+          <ArtifactNode Label="BaseRules.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/BaseRules.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=BaseRules)" Label="BaseRules" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="d5f429fc-2f10-4341-b93a-a5b223442ac9" name="FibonacciRules.cs">
+          <ArtifactNode Label="FibonacciRules.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/FibonacciRules.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=FibonacciRules)" Label="FibonacciRules" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="f37b6dbe-e99c-413d-b345-d6f508293410" name="IRules.cs">
+          <ArtifactNode Label="IRules.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/IRules.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=IRules)" Label="IRules" Category="CodeSchema_Interface">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="fedb2476-dc76-44fb-8d7d-3d2ee6df6512" name="Syllabicator.cs">
+          <ArtifactNode Label="Syllabicator.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/Syllabicator.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=Syllabicator)" Label="Syllabicator" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="fef599c7-ef72-4a7d-87b6-a02ea66b1bb3" name="TraditionalRules.cs">
+          <ArtifactNode Label="TraditionalRules.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/TraditionalRules.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=TraditionalRules)" Label="TraditionalRules" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="eea5c132-f7ce-4a96-a8dd-f0aa637a88c4" name="Validator.cs">
+          <ArtifactNode Label="Validator.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/Validator.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=HaikuAnalysis)" Label="HaikuAnalysis" Category="CodeSchema_Struct">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=HaikuLineAnalysis)" Label="HaikuLineAnalysis" Category="CodeSchema_Struct">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=Validator)" Label="Validator" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=(Name=HaikuRules ParentType=Validator))" Label="Validator‎.HaikuRules" Category="CodeSchema_Enum">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=(Name=HaikuSummary ParentType=Validator))" Label="Validator‎.HaikuSummary" Category="CodeSchema_Struct">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+        <reference Id="81bb4816-4fb9-4ca9-9df9-2f7793b4b4b2" name="WesternRules.cs">
+          <ArtifactNode Label="WesternRules.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Core/Haiku.Core.csproj File=../Haiku.Core/WesternRules.cs)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Core Namespace=Haiku.Core Type=WesternRules)" Label="WesternRules" Category="CodeSchema_Class">
+            <LinkCategory Ref="Contains" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+    <layer Id="c33e7c0c-323e-4cd9-95f3-1f389f4a0a18" name="Haiku.Utils">
+      <childLayers>
+        <layer Id="0b67ba3b-1583-4a6f-a2ba-47c527a44a95" name="Haiku Proxy">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="51f66bb1-1223-4333-86d7-9a50cf17839f" direction="Forward">
+              <layerMoniker Id="cdfdabdf-6942-4595-b13a-f1915f277b4b" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="81b252d2-fe96-4613-ab86-5e396842c438" direction="Forward">
+              <layerMoniker Id="a33d50d8-6e77-45bf-8afd-02f8b1b15792" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="bf59923d-9146-4b78-8252-fec0fd9b98f0" name="Proxy.cs">
+              <ArtifactNode Label="Proxy.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Proxy/Haiku.Utils.csproj File=../Haiku.Proxy/Proxy.cs)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Haiku.Proxy Namespace=Haiku.Utils Type=Proxy)" Label="Proxy" Category="CodeSchema_Class">
+                <LinkCategory Ref="Contains" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Assembly=Haiku.Proxy Namespace=Haiku.Utils Type=InvalidHaikuException)" Label="InvalidHaikuException" Category="CodeSchema_Class">
+                <LinkCategory Ref="Contains" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="a33d50d8-6e77-45bf-8afd-02f8b1b15792" name="Haiku Preferences">
+          <references>
+            <reference Id="644160d6-c7a2-42c1-86d6-3df381231d22" name="Preferences.cs">
+              <ArtifactNode Label="Preferences.cs" Category="CodeSchema_ProjectItem" Id="(Assembly=../Haiku.Proxy/Haiku.Utils.csproj File=../Haiku.Proxy/Preferences.cs)">
+                <Category Ref="File" />
+              </ArtifactNode>
+              <ExpandedNode Id="(Assembly=Haiku.Proxy Namespace=Haiku.Utils Type=Preferences)" Label="Preferences" Category="CodeSchema_Class">
+                <LinkCategory Ref="Contains" />
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="bf6574f5-9d26-46bb-830f-b71bcafd1de3" name="Haiku.Client.WPF">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="dd53d19c-97fa-487a-a701-25b831dcb757" direction="Forward">
+          <layerMoniker Id="0b67ba3b-1583-4a6f-a2ba-47c527a44a95" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <references>
+        <reference Id="134cd379-a2ae-4f08-8813-8b294077b7c1" name="Haiku.Client.WPF">
+          <ArtifactNode Label="Haiku.Client.WPF" Category="CodeSchema_Project" Id="(Assembly=../Haiku.Client.WPF/Haiku.Client.WPF.csproj)">
+            <Category Ref="File" />
+          </ArtifactNode>
+          <ExpandedNode Id="(Assembly=Haiku.Client.WPF)" Label="Haiku.Client.WPF.exe" Category="CodeSchema_Assembly">
+            <Category Ref="FileSystem.Category.FileOfType.exe" />
+            <LinkCategory Ref="Produces" />
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

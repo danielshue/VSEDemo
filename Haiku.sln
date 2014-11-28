@@ -1,0 +1,172 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E87B8CDC-3E27-4E5C-94F2-264B92925F48}"
+	ProjectSection(SolutionItems) = preProject
+		Haiku.vsmdi = Haiku.vsmdi
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Core", "Haiku.Core\Haiku.Core.csproj", "{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Core.UnitTests", "Haiku.Core.UnitTests\Haiku.Core.UnitTests.csproj", "{21C35711-E3CD-43CA-B66E-114236E69FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Client.WPF", "Haiku.Client.WPF\Haiku.Client.WPF.csproj", "{A2161E34-AAE9-4A43-A2AF-D88BC391328E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Utils", "Haiku.Proxy\Haiku.Utils.csproj", "{41316D42-82FD-473C-B2F5-A7962D26DC81}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Haiku.Architecture", "Haiku.Architecture\Haiku.Architecture.modelproj", "{86F57E6D-09EB-45EE-AA1A-10C8377F0678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Utils.UnitTests", "Haiku.Utils.UnitTests\Haiku.Utils.UnitTests.csproj", "{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Misc.UnitTests", "Haiku.Misc.UnitTests\Haiku.Misc.UnitTests.csproj", "{16E42798-6017-4962-AD71-B572F9A0B959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Web", "Haiku.Web\Haiku.Web.csproj", "{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Haiku.Web.Tests", "Haiku.Web.Tests\Haiku.Web.Tests.csproj", "{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Release|x64.ActiveCfg = Release|Any CPU
+		{DCC7BB9D-8C32-40A3-AA6E-F048E0146453}.Release|x86.ActiveCfg = Release|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Release|x64.ActiveCfg = Release|Any CPU
+		{21C35711-E3CD-43CA-B66E-114236E69FF5}.Release|x86.ActiveCfg = Release|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Release|x64.ActiveCfg = Release|Any CPU
+		{A2161E34-AAE9-4A43-A2AF-D88BC391328E}.Release|x86.ActiveCfg = Release|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Release|ARM.ActiveCfg = Release|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Release|x64.ActiveCfg = Release|Any CPU
+		{41316D42-82FD-473C-B2F5-A7962D26DC81}.Release|x86.ActiveCfg = Release|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Release|ARM.ActiveCfg = Release|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Release|x64.ActiveCfg = Release|Any CPU
+		{86F57E6D-09EB-45EE-AA1A-10C8377F0678}.Release|x86.ActiveCfg = Release|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Release|x64.ActiveCfg = Release|Any CPU
+		{B24CF00F-5033-4076-BEC0-E0EBC7B136D4}.Release|x86.ActiveCfg = Release|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Release|ARM.ActiveCfg = Release|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Release|x64.ActiveCfg = Release|Any CPU
+		{16E42798-6017-4962-AD71-B572F9A0B959}.Release|x86.ActiveCfg = Release|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Release|x64.ActiveCfg = Release|Any CPU
+		{B6CFDB2E-DC8D-4FD0-84A1-78BC848B9EB1}.Release|x86.ActiveCfg = Release|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{B576ED7D-B9EA-4CEC-97F1-FD09A540DBC1}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zetetic.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Haiku.Core\\Haiku.Core.csproj
+		SccProjectName1 = Haiku.Core
+		SccLocalPath1 = Haiku.Core
+		SccProjectUniqueName2 = Haiku.Core.UnitTests\\Haiku.Core.UnitTests.csproj
+		SccProjectName2 = Haiku.Core.UnitTests
+		SccLocalPath2 = Haiku.Core.UnitTests
+		SccProjectUniqueName3 = Haiku.Client.WPF\\Haiku.Client.WPF.csproj
+		SccProjectName3 = Haiku.Client.WPF
+		SccLocalPath3 = Haiku.Client.WPF
+		SccProjectUniqueName4 = Haiku.Proxy\\Haiku.Utils.csproj
+		SccProjectName4 = Haiku.Proxy
+		SccLocalPath4 = Haiku.Proxy
+		SccProjectUniqueName5 = Haiku.Architecture\\Haiku.Architecture.modelproj
+		SccProjectName5 = Haiku.Architecture
+		SccLocalPath5 = Haiku.Architecture
+		SccProjectUniqueName6 = Haiku.Utils.UnitTests\\Haiku.Utils.UnitTests.csproj
+		SccProjectName6 = Haiku.Utils.UnitTests
+		SccLocalPath6 = Haiku.Utils.UnitTests
+		SccProjectUniqueName7 = Haiku.Misc.UnitTests\\Haiku.Misc.UnitTests.csproj
+		SccProjectName7 = Haiku.Misc.UnitTests
+		SccLocalPath7 = Haiku.Misc.UnitTests
+		SccProjectUniqueName8 = Haiku.Web\\Haiku.Web.csproj
+		SccProjectName8 = Haiku.Web
+		SccLocalPath8 = Haiku.Web
+		SccProjectUniqueName9 = Haiku.Web.Tests\\Haiku.Web.Tests.csproj
+		SccProjectName9 = Haiku.Web.Tests
+		SccLocalPath9 = Haiku.Web.Tests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Haiku.vsmdi
+	EndGlobalSection
+EndGlobal

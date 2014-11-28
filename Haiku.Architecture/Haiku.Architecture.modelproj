@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86f57e6d-09eb-45ee-aa1a-10c8377f0678}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>Haiku.Architecture</Name>
+    <RootNamespace>Haiku.Architecture</RootNamespace>
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\Haiku.Architecture.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="HaikuArchitectureLayers.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="HaikuArchitectureLayers.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>HaikuArchitectureLayers.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="HaikuArchitectureLayers.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>HaikuArchitectureLayers.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Haiku.Client.WPF\Haiku.Client.WPF.csproj">
+      <Name>Haiku.Client.WPF</Name>
+      <Project>{a2161e34-aae9-4a43-a2af-d88bc391328e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Haiku.Core\Haiku.Core.csproj">
+      <Name>Haiku.Core</Name>
+      <Project>{dcc7bb9d-8c32-40a3-aa6e-f048e0146453}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Haiku.Proxy\Haiku.Utils.csproj">
+      <Name>Haiku.Utils</Name>
+      <Project>{41316d42-82fd-473c-b2f5-a7962d26dc81}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
