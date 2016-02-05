@@ -30,7 +30,7 @@ namespace Haiku.Core
         private Regex _VVV_Syllable = new Regex("[V][V][V]");
         
         /// <summary>
-        /// Count the numnber of syllables in the provided text.
+        /// Count the number of syllables in the provided text.
         /// </summary>
         /// <param name="text">The text to have it's syllables counted.</param>
         /// <returns>The number of syllables in the text.</returns>
