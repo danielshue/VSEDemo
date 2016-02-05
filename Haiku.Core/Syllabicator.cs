@@ -36,7 +36,7 @@ namespace Haiku.Core
         /// <returns>The number of syllables in the text.</returns>
         public int CountSyllables(string text)
         {
-            // break out the words in the text
+            // Break out the words in the text
             ArrayList words = chunkIntoWords(text);
             // Count the syllables in each word
             int totalSyllables = 0;
@@ -106,7 +106,8 @@ namespace Haiku.Core
                     syllables = 1;
                     break;
                 default:
-                    // A funny - need to look for words ending in "ing" - I haven't got an adequate pattern yet.
+                    // A funny - need to look for words ending in "ing" 
+                    // I haven't got an adequate pattern yet.
                     string suffix = word.Substring(word.Length - 3);
                     if (suffix.Equals("ing"))
                     {
@@ -155,7 +156,6 @@ namespace Haiku.Core
 
             if (isSyllable(symbolic, syllableStart, 5, _VVCCC_Syllable)) // VVCCC Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 5;
@@ -163,7 +163,6 @@ namespace Haiku.Core
             } 
             if (isSyllable(symbolic, syllableStart, 4, _CVCC_Syllable)) // CVCC Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 4;
@@ -171,7 +170,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 4, _CCCV_Syllable)) // CCCV Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 4;
@@ -179,7 +177,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 4, _CCVV_Syllable)) // CCVV Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 4;
@@ -187,7 +184,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 4, _CVVC_Syllable)) // CVVC Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 4;
@@ -195,7 +191,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 4, _CVCV_Syllable)) // CVCV Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 4;
@@ -203,7 +198,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 3, _CCV_Syllable)) // CCV Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 3;
@@ -211,7 +205,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 3, _CVC_Syllable)) // CVC Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 3;
@@ -219,7 +212,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 3, _VVV_Syllable)) // VVV Test, e.g. yea rs
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 3;
@@ -227,7 +219,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 2, _VC_Syllable)) // VC Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 2;
@@ -235,7 +226,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 2, _CV_Syllable)) // CV Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 2;
@@ -243,7 +233,6 @@ namespace Haiku.Core
             }
             else if (isSyllable(symbolic, syllableStart, 1, _V_Syllable)) // V Test
             {
-                // We've got a new syllable
                 syllables++;
                 // Reset the start of the next syllable
                 syllableStart += 1;
