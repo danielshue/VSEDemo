@@ -76,11 +76,6 @@ namespace Haiku.Core
             return words; 
         }
 
-        public void aMethod()
-        {
-            Console.WriteLine("");
-        }
-
         /// <summary>
         /// Utility method to count the number of syllables in a single word.
         /// </summary>
