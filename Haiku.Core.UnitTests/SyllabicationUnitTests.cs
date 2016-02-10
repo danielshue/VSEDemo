@@ -73,6 +73,46 @@ namespace Haiku.Core.UnitTests
         }
 
         [TestMethod]
+        public void VWord2TestMethod()
+        {
+            Syllabicator syl = new Syllabicator();
+            string theWord = "b";
+            int expected = 1;
+            int actual = syl.CountSyllables(theWord);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void VWord3TestMethod()
+        {
+            Syllabicator syl = new Syllabicator();
+            string theWord = "c";
+            int expected = 1;
+            int actual = syl.CountSyllables(theWord);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void VWord4TestMethod()
+        {
+            Syllabicator syl = new Syllabicator();
+            string theWord = "d";
+            int expected = 1;
+            int actual = syl.CountSyllables(theWord);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void VWord5TestMethod()
+        {
+            Syllabicator syl = new Syllabicator();
+            string theWord = "e";
+            int expected = 1;
+            int actual = syl.CountSyllables(theWord);
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
         public void CVWordTestMethod()
         {
             Syllabicator syl = new Syllabicator();
