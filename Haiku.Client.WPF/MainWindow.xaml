@@ -11,7 +11,7 @@
         <Button Content="Cancel" Height="32" HorizontalAlignment="Left" Margin="861,451,0,0" Name="Cancel" VerticalAlignment="Top" Width="107" Click="Cancel_Click" Grid.Column="1" FontSize="18" />
         <ListBox Height="136" HorizontalAlignment="Left" Margin="103,51,0,0" Name="rulesList" VerticalAlignment="Top" Width="250" SelectionChanged="rulesList_SelectionChanged" Grid.Column="1" FontSize="18" />
         <Label Content="Haiku Rules:" Height="48" HorizontalAlignment="Left" Margin="103,10,0,0" Name="label1" VerticalAlignment="Top" Width="179" Grid.Column="1" FontSize="18" />
-        <TextBlock Height="136" HorizontalAlignment="Left" Margin="382,51,-10,0" Name="ruleSetDescription" Text="Rule Set Description" VerticalAlignment="Top" Width="621" TextWrapping="Wrap" Grid.Column="1" FontSize="18" />
+        <TextBlock Height="136" HorizontalAlignment="Left" Margin="382,51,0,0" Name="ruleSetDescription" Text="Rule Set Description" VerticalAlignment="Top" Width="586" TextWrapping="Wrap" Grid.Column="1" FontSize="18" />
         <Button Content="Check" Height="32" HorizontalAlignment="Left" Margin="103,273,0,0" Name="check" VerticalAlignment="Top" Width="102" Click="check_Click" Grid.Column="1" FontSize="18" />
         <Label Height="107" HorizontalAlignment="Left" Margin="382,325,0,0" Name="result" VerticalAlignment="Top" Width="586" Grid.Column="1" FontSize="18" BorderThickness="1" BorderBrush="#FFABADB3" />
         <TextBox Height="102" HorizontalAlignment="Left" Margin="382,203,0,0" Name="haiku" VerticalAlignment="Top" Width="586" TextWrapping="Wrap" AcceptsReturn="True" Text="" Grid.Column="1" FontSize="18" />
