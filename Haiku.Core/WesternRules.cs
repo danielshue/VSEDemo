@@ -24,7 +24,7 @@ namespace Haiku.Core
 
             _name = "Western Rules";
 
-            // Set the description that can be used to describe this RuleSet
+            // Set the description that can be used to describe this RuleSet  in the UI
             _description = "The accepted Western number of syllables, judged to be equivalent to the traditional Japanese number of syllables. ";
             _description += "There must be a total of " + _totalSyllables + " syllables, with ";
             _description += "the first line having " + _lineOneSyllables + " syllables, ";

@@ -16,6 +16,5 @@ namespace Haiku.Core
         /// <param name="analysis">The Haiku's stats.</param>
         /// <returns>The results after the rules have been applied.</returns>
         HaikuAnalysis validateHaiku(HaikuAnalysis analysis);
-	// A comment
     }
 }

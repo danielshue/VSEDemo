@@ -18,7 +18,6 @@ namespace Haiku.Core
 
         /// <summary>
         /// Constructor that initialises this class with the correct rules.
-        /// dsfdfsdf
         /// </summary>
         public FibonacciRules()
         {
