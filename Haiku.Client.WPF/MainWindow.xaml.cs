@@ -86,8 +86,9 @@ namespace HaikuCheckInPolicyUI
                 catch (InvalidHaikuException ihException)
                 {
 
-                    result.Content = "Invalid";
-                    result.ToolTip = ihException.Message;
+                    //result.Content = "Invalid";
+                    result.Content = ihException.Message;
+                    //result.ToolTip = ihException.Message;
                 }
             }
         }

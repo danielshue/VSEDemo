@@ -118,10 +118,10 @@ namespace Haiku.Utils
         private string Validate(string candidateHaiku, Validator.HaikuRules rule)
         {
             string linePrefix = "Line ";
-            string lineValid = " is valid. ";
+            string lineValid = " is valid. " + Environment.NewLine;
             string lineInvalid = " is invalid with ";
             string lineSyllables = " syllables instead of ";
-            string explanation = "Valid.";
+            string explanation = "Valid." + Environment.NewLine;
 
             // Validate the comment
             // To Do: Determine rules as set in settings
@@ -131,6 +131,7 @@ namespace Haiku.Utils
             if (analysis.valid == false)
             {
 
+                explanation = "Invalid." + Environment.NewLine;
                 for (int i = 0; i < analysis.lineDetails.Length; i++)
                 {
                     if (analysis.lineDetails[i].lineValid)
@@ -139,7 +140,7 @@ namespace Haiku.Utils
                     }
                     else
                     {
-                        explanation += linePrefix + (i + 1) + lineInvalid + analysis.lineDetails[i].lineSyllables + lineSyllables + analysis.lineDetails[i].lineSyllablesRequired + ". ";
+                        explanation += linePrefix + (i + 1) + lineInvalid + analysis.lineDetails[i].lineSyllables + lineSyllables + analysis.lineDetails[i].lineSyllablesRequired + ". " + Environment.NewLine;
                     }
                 }
                 throw new InvalidHaikuException(explanation);
